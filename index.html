@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heemmanuel</title>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: none;
+          text-align: center;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/profile-pic.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="m-0 text-black font-mono scroll-smooth">
+    <header
+      class="p-0 m-0 justify-around flex max-lg:block font-normal py-6 bg-white items-center fixed z-50 top-0 left-0 right-0 border-b-4"
+    >
+      <h1 class="text-4xl font-medium px-4">Heemmanuel</h1>
+      <ul class="flex text-2xl gap-10 max-lg:hidden">
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </header>
+    <section
+      class="flex items-center justify-center px-4 gap-24 my-60 max-lg:my-24 max-lg:flex-wrap"
+    >
+      <div class="w-[400px] border-black border-8 rounded-full">
+        <img src="assets/profile-pic-2.png" alt="" />
+      </div>
+      <div class="text-center">
+        <p class="font-medium text-xl text-slate-700">Hello, I'm</p>
+        <h1 class="text-4xl font-bold py-1">Hemmanuel</h1>
+        <h3 class="text-3xl py-2 mb-4 font-bold text-slate-700">
+          Frontend Engineer
+        </h3>
+        <div class="flex justify-center">
+          <button
+            class="py-2 px-4 border-black border-2 rounded-3xl mr-2 hover:bg-transparent hover:text-black text-sm bg-zinc-900 text-slate-200 transition-all duration-500"
+          >
+            Download CV
+          </button>
+          <button
+            class="bg-black-200 py-2 px-4 border-black border-2 rounded-3xl ml-2 text-sm hover:bg-zinc-900 hover:text-slate-200 transition-all duration-500"
+          >
+            Contact Info
+          </button>
+        </div>
+        <div class="flex items-center justify-center gap-4 mt-5">
+          <img class="w-8" src="assets/linkedin.png" alt="" />
+          <img class="w-8" src="assets/github.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="my-32">
+      <div class="text-center">
+        <p class="text-xl font-medium tracking-tighter text-zinc-600">
+          Get To Know More
+        </p>
+        <h1 class="text-3xl font-bold text-6xl">About Me</h1>
+      </div>
+      <div
+        class="flex justify-center gap-12 mt-[70px] items-center px-[150px] max-lg:flex-wrap max-lg:px-12"
+      >
+        <img
+          class="h-[400px] max-md:h-full rounded-[40px]"
+          src="assets/about-pic.png"
+          alt=""
+        />
+        <div class="w-full">
+          <div class="flex justify-between gap-12">
+            <div
+              class="flex flex-col items-center text-center justify-center border-2 rounded-3xl border-gray-400 w-full py-8"
+            >
+              <img class="w-12" src="assets/experience.png" alt="" />
+              <p class="font-black text-slate-900 uppercase text-lg">
+                Experience
+              </p>
+              <p>2+ years</p>
+              <p class="text-base">Frontend Development</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center border-2 rounded-3xl border-gray-400 w-full text-center"
+            >
+              <img class="w-12" src="assets/education.png" alt="" />
+              <p class="font-black text-slate-900 uppercase text-lg">
+                Education
+              </p>
+              <p>B.Sc. Bachelors Degree</p>
+              <p>M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <p class="font-sans mt-12 w-full text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+            reprehenderit et laborum, rem, dolore eum quod voluptate
+            exercitationem nobis, nihil esse debitis maxime facere minus sint
+            delectus velit in eos quo officiis explicabo deleniti dignissimos.
+            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+            reiciendis ea magnam? Nulla, impedit fuga!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="text-center">
+        <p class="text-xl font-medium tracking-tighter text-zinc-600">
+          Explore My
+        </p>
+        <h1 class="text-3xl font-bold text-6xl">Experience</h1>
+      </div>
+      <div class="my-14 flex justify-center max-md:flex-wrap gap-10 mx-20">
+        <div class="border-gray-400 border-2 w-full rounded-3xl">
+          <h1 class="text-center text-2xl my-8 font-black">
+            Frontend Development
+          </h1>
+          <div class="flex flex-wrap justify-center gap-y-8 my-8">
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">HTML</h1>
+                <h1>Experienced</h1>
+              </div>
+            </div>
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">CSS</h1>
+                <h1>Experienced</h1>
+              </div>
+            </div>
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">SASS</h1>
+                <h1>Intermediate</h1>
+              </div>
+            </div>
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">Javascript</h1>
+                <h1>Basic</h1>
+              </div>
+            </div>
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">TypeScript</h1>
+                <h1>Basic</h1>
+              </div>
+            </div>
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">MateriaL UI</h1>
+                <h1>Experienced</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-gray-400 border-2 w-full rounded-3xl">
+          <h1 class="text-center text-2xl my-8 font-black">
+            Backend Development
+          </h1>
+          <div class="flex flex-wrap justify-center gap-y-8 my-8">
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">PostgreSQL</h1>
+                <h1>Basic</h1>
+              </div>
+            </div>
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">Node JS</h1>
+                <h1>Intermediate</h1>
+              </div>
+            </div>
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">Express JS</h1>
+                <h1>Intermediate</h1>
+              </div>
+            </div>
+            <div class="flex w-60 items-center">
+              <img class="w-10 h-10 mr-4" src="assets/checkmark.png" alt="" />
+              <div>
+                <h1 class="text-xl font-black">Git</h1>
+                <h1>Intermediate</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative">
+      <div class="text-center mt-60">
+        <p class="text-xl font-medium tracking-tighter text-zinc-600">
+          Browse My Recent
+        </p>
+        <h1 class="text-3xl font-bold text-6xl">Projects</h1>
+      </div>
+      <div class="my-20 flex max-lg:flex-wrap gap-12 mx-20">
+        <div
+          class="flex items-center justify-center flex-col border-2 p-6 border-gray-700 rounded-3xl w-full"
+        >
+          <img class="rounded-3xl" src="assets/project-3.png" alt="" />
+          <h1 class="text-4xl text-black font-black text-center my-6">
+            Project One
+          </h1>
+          <div class="flex gap-4">
+            <button
+              class="bg-gray-700 px-4 hover:bg-transparent hover:text-black py-1 text-white border-gray-700 border-4 rounded-3xl transition-all duration-500"
+            >
+              Github
+            </button>
+            <button
+              class="bg-gray-700 px-4 hover:bg-transparent hover:text-black py-1 text-white border-gray-700 border-4 rounded-3xl transition-all duration-500"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-center flex-col border-2 p-6 border-gray-700 rounded-3xl w-full"
+        >
+          <img class="rounded-3xl" src="assets/project-2.png" alt="" />
+          <h1 class="text-4xl text-black text-center font-black my-6">
+            Project Two
+          </h1>
+          <div class="flex gap-4">
+            <button
+              class="bg-gray-700 px-4 hover:bg-transparent hover:text-black py-1 text-white border-gray-700 border-4 rounded-3xl transition-all duration-500"
+            >
+              Github
+            </button>
+            <button
+              class="bg-gray-700 px-4 hover:bg-transparent hover:text-black py-1 text-white border-gray-700 border-4 rounded-3xl transition-all duration-500"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-center flex-col border-2 p-6 border-gray-700 rounded-3xl w-full"
+        >
+          <img class="rounded-3xl" src="assets/project-1.png" alt="" />
+          <h1 class="text-4xl text-black text-center font-black my-6">
+            Project Three
+          </h1>
+          <div class="flex gap-4">
+            <button
+              class="bg-gray-700 px-4 hover:bg-transparent hover:text-black py-1 text-white border-gray-700 border-4 rounded-3xl transition-all duration-500"
+            >
+              Github
+            </button>
+            <button
+              class="bg-gray-700 px-4 hover:bg-transparent hover:text-black py-1 text-white border-gray-700 border-4 rounded-3xl transition-all duration-500"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+      <img
+        class="w-12 absolute bottom--2 right-0 cursor-pointer"
+        onclick="location.href='./#footer'"
+        src="assets/arrow.png"
+        alt=""
+      />
+    </section>
+
+    <section>
+      <div class="text-center mt-72">
+        <p class="text-xl font-medium tracking-tighter text-zinc-600">
+          Get in Touch
+        </p>
+        <h1 class="text-3xl font-bold text-6xl">Contact Me</h1>
+      </div>
+      <div>
+        <div
+          class="flex justify-center items-center gap-4 my-12 mx-auto w-[380px] py-6 px-2 rounded-[40px] border-2 border-gray-200"
+        >
+          <div class="flex justify-center items-center">
+            <img class="w-10 mr-2" src="assets/email.png" alt="" />
+            <h1 class="text-lg font-black text-zinc-600">
+              oladirane@gmail.com
+            </h1>
+          </div>
+          <div class="flex justify-center items-center">
+            <img class="w-8 mr-2" src="assets/linkedin.png" alt="" />
+            <a class="text-lg font-black text-zinc-600" href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="mt-60 mb-8 text-center">
+      <ul class="flex justify-center text-lg gap-10 my-8">
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+      <p class="font-sans text-base">
+        Copyright &copy 2023 John Doe. All Rights Reserved.
+      </p>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
