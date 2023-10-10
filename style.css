@@ -1,1 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}
+
+#hamburger.active #span:nth-child(2) {
+  opacity: 0;
+}
+
+#hamburger.active #span:nth-child(1) {
+  transform: translatey(8px) rotate(45deg);
+}
+
+#hamburger.active #span:nth-child(3) {
+  transform: translatey(-8px) rotate(-45deg);
+}
+
+#liste.active {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  width: 35%;
+  text-align: center;
+  margin-top: 70px;
+  
+}
+#liste.active li{
+  padding: 10px;
+}
+
+html{
+  scroll-behavior: smooth;
+}

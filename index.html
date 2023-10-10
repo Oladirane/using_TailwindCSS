@@ -19,19 +19,36 @@
       type="image/x-icon"
     />
   </head>
-  <body class="m-0 text-black font-mono scroll-smooth">
+  <body class="m-0 text-black font-mono">
     <header
-      class="p-0 m-0 justify-around flex max-lg:block font-normal py-6 bg-white items-center fixed z-50 top-0 left-0 right-0 border-b-4"
+      class="p-0 m-0 justify-around flex font-normal max-md:hidden py-6 bg-white items-center fixed z-50 top-0 left-0 right-0 border-b-4"
     >
       <h1 class="text-4xl font-medium px-4">Heemmanuel</h1>
-      <ul class="flex text-2xl gap-10 max-lg:hidden">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+      <ul class="flex text-2xl gap-10">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
+
+    <header
+      class="p-0 m-0 justify-around flex font-normal md:hidden py-6 bg-white items-center fixed z-50 top-0 left-0 right-0 border-b-4"
+    >
+      <h1 class="text-3xl font-medium px-4">Heemmanuel</h1>
+      <ul id="hamburger" class="flex flex-col gap-1 cursor-pointer">
+        <span id="span" class="bg-black h-1 w-6"></span>
+        <span id="span" class="bg-black h-1 w-6"></span>
+        <span id="span" class="bg-black h-1 w-6"></span>
+      </ul>
+      <ul id="liste" class="hidden text-2xl gap-10 cursor-pointer">
+        <li><a class='list-items' href="#home">Home</a></li>
+        <li><a class='list-items' href="#about">About</a></li>
+        <li><a class='list-items' href="#projects">Projects</a></li>
+        <li><a class='list-items' href="#contact">Contact</a></li>
+    </header>
     <section
+      id="home"
       class="flex items-center justify-center px-4 gap-24 my-60 max-lg:my-24 max-lg:flex-wrap"
     >
       <div class="w-[400px] border-black border-8 rounded-full">
@@ -61,7 +78,7 @@
         </div>
       </div>
     </section>
-    <section class="my-32">
+    <section id="about" class="my-32">
       <div class="text-center">
         <p class="text-xl font-medium tracking-tighter text-zinc-600">
           Get To Know More
@@ -205,7 +222,7 @@
         </div>
       </div>
     </section>
-    <section class="relative">
+    <section id="projects" class="relative">
       <div class="text-center mt-60">
         <p class="text-xl font-medium tracking-tighter text-zinc-600">
           Browse My Recent
@@ -282,7 +299,7 @@
       />
     </section>
 
-    <section>
+    <section id="contact">
       <div class="text-center mt-72">
         <p class="text-xl font-medium tracking-tighter text-zinc-600">
           Get in Touch
@@ -308,10 +325,10 @@
     </section>
     <footer id="footer" class="mt-60 mb-8 text-center">
       <ul class="flex justify-center text-lg gap-10 my-8">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <p class="font-sans text-base">
         Copyright &copy 2023 John Doe. All Rights Reserved.
